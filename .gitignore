@@ -1,0 +1,21 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Dependencies and local tooling
+node_modules/
+
+# Secrets and local deployment files: never commit these
+.env
+.env.*
+.deploy-credentials*
+*.pem
+*.key
+
+# Exported files from testing
+*.pdf
+*.zip
+/exports/
