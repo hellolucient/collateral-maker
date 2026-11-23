@@ -19,3 +19,9 @@ node_modules/
 *.pdf
 *.zip
 /exports/
+
+# Wrangler / hosting secrets (never commit)
+.wrangler/
+secrets.json
+secrets/
+pages-password

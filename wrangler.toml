@@ -1,0 +1,14 @@
+# Mandara Collateral Maker — static app with HTTP Basic auth.
+# Deployed as a Worker because the Mandara-collateral API token has
+# Workers Scripts: Edit, not Cloudflare Pages: Edit. The Pages Function
+# in functions/_middleware.js is ready if a Pages project is created later.
+name = "mandara-collateral-maker"
+main = "worker.js"
+compatibility_date = "2026-11-23"
+workers_dev = true
+account_id = "4d9924ff72b543740cfc6f212d7d3fde"
+
+[assets]
+directory = "./site"
+binding = "ASSETS"
+run_worker_first = true
